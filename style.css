@@ -165,3 +165,266 @@ img {
   gap: 100px;
   margin: 0 auto;
 }
+.features-list-container {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.features-svg {
+  fill: #4985ff;
+}
+.section-features {
+  padding: 100px 0 70px 0;
+  background-color: #f6f6f8;
+}
+.specializing-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 78px;
+}
+.section-specializing-title {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: left;
+  color: #fff;
+  max-width: 540px;
+}
+.section-specializing-btn {
+  margin: 0;
+}
+.specializing-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 85px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.specializing-list-item {
+  counter-reset: zero 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}
+.specializing-list-img {
+  border-radius: 10px;
+}
+.specializing-list-title {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: left;
+  color: #000;
+  margin: 30px 0;
+  counter-reset: counter;
+}
+.specializing-list-title:before {
+  content: counter(zero) counter(mycounter) ".";
+  counter-increment: mycounter;
+  color: #4985ff;
+  margin-right: 3px;
+}
+.specializing-list-desc {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: left;
+  color: #999;
+  margin-bottom: 47px;
+}
+.specializing-list-link {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
+  text-align: left;
+  color: #4985ff;
+  width: 100px;
+}
+.section-projects {
+  background-color: #f6f6f8;
+  padding: 100px 0 130px 0;
+}
+.section-projects-title {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  color: #000;
+  margin-bottom: 28px;
+}
+.section-projects-desc {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  color: #999;
+  max-width: 730px;
+  margin: 0 auto 67px auto;
+}
+.project-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.section-work {
+  padding: 70px 0 85px 0;
+  background-image: url(../img/work-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+.section-work-title {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+}
+.section-work-desc {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 70px;
+}
+.work-container {
+  width: 970px;
+  height: 430px;
+  background-image: url(../img/work-container.png);
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.work-btn {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fff;
+  background-color: inherit;
+  padding: 20px 29px 20px 40px;
+  border-radius: 200px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+}
+.section-mailing {
+  padding: 85px 0;
+}
+.section-mailing-title {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: center;
+  color: #000;
+  margin: 0 auto 20px auto;
+  padding-top: 80px;
+  border-top: 1px solid #e0e0e0;
+  max-width: 1110px;
+}
+.section-mailing-desc {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  color: #999;
+  margin-bottom: 30px;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.mailing-form {
+  margin: 0 auto 35px auto;
+  border: 1px solid #f2f2f2;
+  border-radius: 30px;
+  max-width: 489px;
+  box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+  display: flex;
+}
+.mailing-input {
+  border: none;
+  margin-right: auto;
+  margin-left: 33px;
+}
+.mailing-btn {
+  border-radius: 0 30px 30px 0;
+  margin: 0;
+}
+.section-mailing-narr {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: _;
+  text-align: center;
+  color: #999;
+}
+.footer {
+  padding: 70px 0 30px 0;
+  background-color: #f6f6f8;
+}
+.footer-wrap {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 70px;
+  margin: 0 auto 30px auto;
+  border-bottom: 1px solid #e0e0e0;
+}
+.addres-container {
+  margin-right: 30px;
+}
+.addres-title,
+.link-title,
+.projects-title,
+.social-title {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: left;
+  color: #000;
+  margin-bottom: 35px;
+}
+address {
+  font-style: normal;
+}
+.link-container,
+.projects {
+  margin-right: 40px;
+}
+.footer-desc {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  color: #999;
+}

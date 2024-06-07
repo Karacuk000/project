@@ -53,6 +53,7 @@ ul {
   background-image: url(./img/specializing-img.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .section-hero-desc {
   font-family: Montserrat;
@@ -278,9 +279,9 @@ img {
 }
 .section-work {
   padding: 70px 0 85px 0;
-  background-image: url(../img/work-bg.png);
+  background-image: url(./img/specializing-img.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: top;
 }
 .section-work-title {
@@ -301,9 +302,9 @@ img {
   margin-bottom: 70px;
 }
 .work-container {
-  width: 970px;
-  height: 430px;
-  background-image: url(./img/specializing-img.png);
+  width: 1000px;
+  height: 570px;
+  background-image: url(./img/work-container.png);
   background-size: cover;
   margin: 0 auto;
   display: flex;
@@ -500,4 +501,7 @@ address {
   gap: 30px;
   margin-right: 40px;
   color: #999;
+}
+a {
+  text-decoration: none;
 }

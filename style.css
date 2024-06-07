@@ -176,9 +176,7 @@ img {
   align-items: center;
   gap: 20px;
 }
-.features-svg {
-  fill: #4985ff;
-}
+
 .section-features {
   padding: 100px 0 70px 0;
   background-color: #f6f6f8;
@@ -305,7 +303,7 @@ img {
 .work-container {
   width: 970px;
   height: 430px;
-  background-image: url(../img/work-container.png);
+  background-image: url(./img/specializing-img.png);
   background-size: cover;
   margin: 0 auto;
   display: flex;
@@ -426,5 +424,80 @@ address {
   font-weight: 400;
   line-height: 1.5;
   text-align: center;
+  color: #999;
+}
+.section-features {
+  padding: 100px 0 70px 0;
+  background-color: #f6f6f8;
+}
+.section-app {
+  padding: 110px 0 105px 0;
+}
+.link-list-item::before,
+.projects-list-item::before,
+.social-list-item::before {
+  content: url(./symbol-defs.svg#icon-right-arrow);
+  display: inline-block;
+  margin-right: 13px;
+  width: 5;
+  height: 9;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+.addres-list-link,
+.link-list-item,
+.projects-list-link,
+.social-list-link {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: #999;
+}
+li {
+  display: list-item;
+  unicode-bidi: isolate;
+}
+.link-container,
+.projects {
+  margin-right: 40px;
+}
+.addres-list,
+.link-list,
+.projects-list,
+.social-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-right: 40px;
+}
+.footer-desc {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  color: #999;
+}
+address {
+  font-style: normal;
+}
+.addres-list-link {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.addres-list,
+.link-list,
+.projects-list,
+.social-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-right: 40px;
   color: #999;
 }

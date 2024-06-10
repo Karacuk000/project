@@ -277,13 +277,7 @@ img {
   gap: 30px;
   margin-bottom: 50px;
 }
-.section-work {
-  padding: 70px 0 85px 0;
-  background-image: url(./img/specializing-img.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-}
+
 .section-work-title {
   font-family: Montserrat;
   font-size: 36px;
@@ -504,4 +498,135 @@ address {
 }
 a {
   text-decoration: none;
+}
+.mailing-btn,
+.projects-btn,
+.section-specializing-btn,
+.section-app-btn,
+.section-hero-btn {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: _;
+  text-align: center;
+  color: #fff;
+  padding: 14px 36px;
+  border-radius: 30px;
+  background-color: #4985ff;
+  margin: 0 auto;
+  display: block;
+}
+.app-list-item {
+  display: flex;
+  gap: 17px;
+}
+.app-list-desc {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: #999;
+  max-width: 222px;
+}
+.app-list-title {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: left;
+  color: #000;
+  margin-bottom: 12px;
+  margin-top: 46px;
+}
+.app-svg-container {
+  border: 1px solid #4985ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+}
+.section-specializing {
+  background-image: (
+    linear,
+    left top,
+    left bottom,
+    (50%, rgb(95, 18, 208)),
+    (50%, rgb(255, 255, 255))
+  );
+  background-image: linear-gradient(
+    to bottom,
+    rgb(95, 18, 208) 50%,
+    rgb(255, 255, 255) 50%
+  );
+  background-repeat: no-repeat;
+  padding: 100px 0 85px 0;
+}
+.section-features {
+  padding: 100px 0 70px 0;
+  background-color: #f6f6f8;
+}
+.features-list-desc {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  padding-bottom: 90px;
+  text-align: center;
+  color: #999;
+}
+.features-list-container {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.features-svg {
+  fill: #4985ff;
+}
+.mailing-btn {
+  border-radius: 0 30px 30px 0;
+  margin: 0;
+}
+.section-work {
+  padding: 70px 0 85px 0;
+  background-image: url(./img/work.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+.section-work-desc {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 70px;
+}
+.mailing-btn,
+.projects-btn,
+.section-specializing-btn,
+.section-app-btn,
+.section-hero-btn {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: _;
+  text-align: center;
+  color: #fff;
+  padding: 14px 36px;
+  border-radius: 30px;
+  background-color: #4985ff;
+  margin: 0 auto;
+  display: block;
 }

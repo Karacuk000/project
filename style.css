@@ -390,6 +390,7 @@ h6 {
   padding-bottom: 70px;
   margin: 0 auto 30px auto;
   border-bottom: 1px solid #e0e0e0;
+  justify-content: space-between;
 }
 .addres-container {
   margin-right: 30px;
@@ -428,15 +429,7 @@ address {
 .section-app {
   padding: 110px 0 105px 0;
 }
-.link-list-item::before,
-.projects-list-item::before,
-.social-list-item::before {
-  content: url(./symbol-defs.svg#icon-right-arrow);
-  display: inline-block;
-  margin-right: 13px;
-  width: 5;
-  height: 9;
-}
+
 *,
 ::after,
 ::before {
@@ -621,7 +614,6 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.1;
-  letter-spacing: _;
   text-align: center;
   color: #fff;
   padding: 14px 36px;
@@ -629,4 +621,20 @@ a {
   background-color: #4985ff;
   margin: 0 auto;
   display: block;
+}
+.social-list-link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+button {
+  border: none;
+}
+.section-hero-bth {
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  padding: 14px 36px;
+  border-radius: 30px;
+  background-color: #4985ff;
 }
